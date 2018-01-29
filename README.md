@@ -1,6 +1,6 @@
 # pairwise
 
-Chunk an array by successive pairs.
+Chunk an array into successive pairs.
 E.g. `pairwise([1, 2, 3, 4])` yields `[[1, 2], [2, 3], [3, 4]]`.
 
 ## Installing / Getting started
