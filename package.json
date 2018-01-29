@@ -1,0 +1,25 @@
+{
+  "name": "pairwise",
+  "version": "0.1.0",
+  "description": "Chunk an array by successive pairs.",
+  "main": "index.js",
+  "files": [],
+  "scripts": {
+    "test": "ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/QuentinRoy/pairwise.git"
+  },
+  "keywords": ["array", "pairs", "pairwise"],
+  "author": "Quentin Roy <quentin@quentinroy.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QuentinRoy/pairwise/issues"
+  },
+  "homepage": "https://github.com/QuentinRoy/pairwise",
+  "devDependencies": {
+    "ava": "^0.25.0"
+  },
+  "engines": { "node": ">=4.8.7" }
+}
