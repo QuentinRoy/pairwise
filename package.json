@@ -1,6 +1,6 @@
 {
   "name": "pairwise",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Chunk an array into successive pairs.",
   "main": "index.js",
   "files": [],
