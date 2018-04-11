@@ -1,5 +1,16 @@
 {
   "extends": [
-    "config:base"
+    "schedule:weekends",
+    "config:js-lib",
+    ":automergeMajor",
+    ":automergeBranchPush",
+    ":semanticCommits",
+    ":rebaseStalePrs"
+  ],
+  "packageRules": [
+    {
+      "packageNames": ["nyc", "ava"],
+      "groupName": "test"
+    }
   ]
 }
