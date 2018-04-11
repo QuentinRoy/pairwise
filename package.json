@@ -5,13 +5,18 @@
   "main": "index.js",
   "files": [],
   "scripts": {
-    "test": "ava"
+    "test": "ava",
+    "coverage": "nyc --reporter=lcov --reporter=text npm test"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/QuentinRoy/pairwise.git"
   },
-  "keywords": ["array", "pairs", "pairwise"],
+  "keywords": [
+    "array",
+    "pairs",
+    "pairwise"
+  ],
   "author": "Quentin Roy <quentin@quentinroy.fr>",
   "license": "MIT",
   "bugs": {
@@ -19,7 +24,10 @@
   },
   "homepage": "https://github.com/QuentinRoy/pairwise",
   "devDependencies": {
-    "ava": "^0.25.0"
+    "ava": "^0.25.0",
+    "nyc": "^11.6.0"
   },
-  "engines": { "node": ">=4.8.7" }
+  "engines": {
+    "node": ">=4.8.7"
+  }
 }
