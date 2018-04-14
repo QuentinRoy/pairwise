@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/QuentinRoy/pairwise",
   "devDependencies": {
-    "ava": "^0.25.0",
-    "nyc": "^11.6.0"
+    "ava": "0.25.0",
+    "nyc": "11.6.0"
   },
   "engines": {
     "node": ">=4.8.7"
