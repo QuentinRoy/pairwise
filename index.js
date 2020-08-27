@@ -1,9 +1,9 @@
 module.exports = array => {
-  const n = array.length;
-  return array.reduce((acc, x, i) => {
-    if (i + 1 < n) {
-      acc.push([x, array[i + 1]]);
-    }
-    return acc;
-  }, []);
+  const res = [];
+
+  for(let i = 0, j = 1; j < array.length; i++, j++) {
+    res.push([array[i], array[j]]);
+  }
+
+  return res;
 };
