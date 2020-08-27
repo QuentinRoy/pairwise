@@ -1,10 +1,10 @@
 language: node_js
 node_js:
-- 4.8.7
+- 10
 - lts/*
 - node
 install:
 - npm install -g codecov
-- npm install
+- npm ci
 script:
 - npm run coverage && codecov
